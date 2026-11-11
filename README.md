@@ -1,2 +1,2 @@
 # ODS4_chimichangos
-Sistema de seguimiento y motivación académica para Prepanet Campus León.
+Sistema de búsqueda, recomendación y accesibilidad de restaurantes, puestos de comida y ofertas para foráneos y estudiantes.
