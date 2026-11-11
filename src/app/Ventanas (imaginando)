@@ -1,0 +1,20 @@
+Diseño conceptual de las ventanas de la aplicación
+Ventana 1 — Home / Bienvenida (win_home.py)
+
+Imaginamos una pantalla principal sencilla, atractiva y amigable que funcione como punto de entrada a la aplicación. Mostrará el nombre y propósito de la plataforma, junto con botones de navegación que permitan acceder fácilmente a las distintas funcionalidades, como buscar comida, consultar promociones y administrar favoritos.
+
+Ventana 2 — Formulario / Preferencias (win_form.py)
+
+Imaginamos una ventana donde el usuario pueda registrar sus datos y preferencias alimenticias. Permitirá introducir un presupuesto disponible, seleccionar tipos de comida de interés y establecer una zona de búsqueda. El objetivo es recopilar información que permita ofrecer recomendaciones más relevantes y personalizadas.
+
+Ventana 3 — Lista / Favoritos (win_list.py)
+
+Imaginamos una sección donde los usuarios puedan visualizar y administrar sus establecimientos favoritos. Podrán agregar restaurantes, puestos de comida o cafeterías a su lista, eliminar opciones y consultar rápidamente aquellos lugares que les hayan interesado anteriormente.
+
+Ventana 4 — Tabla / Catálogo de establecimientos (win_table.py)
+
+Imaginamos un catálogo organizado en forma de tabla que muestre los establecimientos disponibles y sus características principales, como nombre, tipo de comida, precio promedio, ubicación y promociones. Permitirá comparar diferentes alternativas y facilitar la elección de acuerdo con el presupuesto del usuario.
+
+Ventana 5 — Canvas / Mapa visual (win_canvas.py)
+
+Imaginamos una representación gráfica de los establecimientos mediante un mapa visual simplificado. Permitirá identificar la distribución de restaurantes y puestos de comida en una zona determinada, destacando ubicaciones y promociones para facilitar el descubrimiento de opciones cercanas.
