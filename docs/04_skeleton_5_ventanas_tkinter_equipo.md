@@ -262,3 +262,10 @@ Para convertir el prototipo en una aplicación más completa:
 ---
 
 **Alcance de la revisión:** código fuente, archivo CSV y configuración presentes en `Sesion3.zip`. No se modificaron los archivos originales ni se ejecutó la interfaz gráfica.
+
+Integrante	Rol
+Rafael Gallaga Mendoza	Desarrollador UI
+Armando Jr Delgado Duarte	Desarrollador de Datos/API
+César Augusto Tesillos Medrano	QA / Analista de Pruebas
+Rafael Hernandes Cabrera	Líder Técnico (Tech Lead)
+Julio Emilio Ugalde Gutiérrez	Product Owner (PO)
