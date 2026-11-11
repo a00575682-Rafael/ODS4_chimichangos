@@ -269,3 +269,12 @@ Armando Jr Delgado Duarte	Desarrollador de Datos/API
 César Augusto Tesillos Medrano	QA / Analista de Pruebas
 Rafael Hernandes Cabrera	Líder Técnico (Tech Lead)
 Julio Emilio Ugalde Gutiérrez	Product Owner (PO)
+
+<img width="846" height="742" alt="image" src="https://github.com/user-attachments/assets/505f193c-11f1-4dd6-8e4c-95f5ce273791" />
+<img width="838" height="742" alt="image" src="https://github.com/user-attachments/assets/db856599-d74c-4ed6-b14a-31c134491439" />
+<img width="846" height="736" alt="image" src="https://github.com/user-attachments/assets/8547ed74-dfc8-494c-9eb8-ad2c379975d2" />
+<img width="1008" height="824" alt="image" src="https://github.com/user-attachments/assets/13bb64ad-0f5e-4201-9926-ab8e20679990" />
+<img width="958" height="748" alt="image" src="https://github.com/user-attachments/assets/f07b8210-1e26-44d0-9acf-1acc1f22fcf8" />
+<img width="974" height="806" alt="image" src="https://github.com/user-attachments/assets/06df12a2-89fc-458f-a91a-d5757839bbdf" />
+
+
