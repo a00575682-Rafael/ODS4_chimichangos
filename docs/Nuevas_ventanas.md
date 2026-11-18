@@ -7,3 +7,5 @@ Breve reflexión: ¿por qué estos cambios apoyan la idea del proyecto?
 
 JULIO: 
 Ventana Asignada: win.table.py
+<img width="682" height="437" alt="image" src="https://github.com/user-attachments/assets/8dd1949a-a4ab-4ad0-9db4-8748c234adae" />
+
