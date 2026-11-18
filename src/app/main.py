@@ -1,3 +1,4 @@
+
 import tkinter as tk
 from tkinter import ttk
 from app.win_home import open_win_home
@@ -18,7 +19,7 @@ def main():
     ttk.Button(frame, text="1) Home / Bienvenida", command=lambda: open_win_home(root)).pack(pady=4, fill="x")
     ttk.Button(frame, text="2) Formulario", command=lambda: open_win_form(root)).pack(pady=4, fill="x")
     ttk.Button(frame, text="3) Lista (CRUD básico)", command=lambda: open_win_list(root)).pack(pady=4, fill="x")
-    ttk.Button(frame, text="4) Tabla (Treeview)", command=lambda: open_win_table(root)).pack(pady=4, fill="x")
+    ttk.Button(frame, text="4) Catalogo de establecimientos", command=lambda: open_win_table(root)).pack(pady=4, fill="x")
     ttk.Button(frame, text="5) Canvas (Dibujo)", command=lambda: open_win_canvas(root)).pack(pady=4, fill="x")
     ttk.Separator(frame).pack(pady=6, fill="x")
     ttk.Button(frame, text="Salir", command=root.destroy).pack(pady=6)
@@ -27,3 +28,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+  

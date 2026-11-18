@@ -5,12 +5,18 @@ from pathlib import Path
 
 def open_win_table(parent: tk.Tk):
     win = tk.Toplevel(parent)
-    win.title("Tabla (Treeview)")
-    win.geometry("480x300")
-    frm = ttk.Frame(win, padding=12)
+    win.title("Catalogo de establecimientos")
+    win.geometry("680x400")
+    frm = ttk.Frame(win, padding=24)
     frm.pack(fill="both", expand=True)
-
-    cols = ("nombre", "valor1", "valor2")
+ #añadir label de título
+    ttk.Label(frm, text="Catálogo de establecimientos", font=("Segoe UI", 14, "bold")).pack(pady=(0, 12))
+    estilo = ttk.Style()
+    estilo.theme_use("clam")
+    estilo.configure("Treeview", rowheight=34, font=("Segoe UI", 11), background="#FFFFFF", fieldbackground="#1F4E79", foreground="#1D2B2A")
+    estilo.configure("Treeview.Heading", font=("Segoe UI", 11, "bold"), background="#0F6B63", foreground="#FFFFFF")
+    estilo.map("Treeview", background=[("selected", "#E8A317")], foreground=[("selected", "#000000")])
+    cols = ("Nombre", "Tipo", "Precio_promedio", "Ubicación", "Promoción")
     tv = ttk.Treeview(frm, columns=cols, show="headings", height=10)
     for c in cols:
         tv.heading(c, text=c.capitalize())
@@ -25,6 +31,6 @@ def open_win_table(parent: tk.Tk):
     with open(ruta, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            tv.insert("", "end", values=(row["nombre"], row["valor1"], row["valor2"]))
+            tv.insert("", "end", values=(row["Nombre"], row["Tipo"], row["Precio_promedio"], row["Ubicación"], row["Promoción"]))
 
     ttk.Button(frm, text="Cerrar", command=win.destroy).pack(pady=8, anchor="e")
