@@ -6,6 +6,7 @@ Captura de pantalla de la ventana en ejecución original  y el diseño gráfico 
 Breve reflexión: ¿por qué estos cambios apoyan la idea del proyecto?
 
 JULIO: 
+Es necesario añadir un catalogo visual donde se puedan encontrar de forma ordenada los posibles establecimientos que se adecuen a las necesidades del usuario; donde se indiquen claramente los precios, el tipo de comida que se ofrece, la ubicación y las promociones que pueden encontrarse.
 Ventana Asignada: win.table.py
 <img width="682" height="437" alt="image" src="https://github.com/user-attachments/assets/8dd1949a-a4ab-4ad0-9db4-8748c234adae" />
 
