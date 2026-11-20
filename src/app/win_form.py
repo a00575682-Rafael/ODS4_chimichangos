@@ -5,7 +5,7 @@ def open_win_form(parent):
     # 1. Configuración de la ventana
     win = tk.Toplevel(parent)
     win.title("Filtro de Búsqueda de Comida")
-    win.geometry("400x500") # La hicimos más alta para que quepa todo
+    win.geometry("1280x720") # La hicimos más alta para que quepa todo
     
     # Marco principal para tener márgenes
     frm = ttk.Frame(win, padding=20)
@@ -59,3 +59,4 @@ def open_win_form(parent):
     ttk.Checkbutton(frm_pref, text="Vegetariana", variable=var_veg).pack(anchor="w")
     ttk.Checkbutton(frm_pref, text="Vegana", variable=var_vgn).pack(anchor="w")
     ttk.Checkbutton(frm_pref, text="Sin gluten", variable=var_glu).pack(anchor="w")
+    tk.Button(win, text="Cerrar ventana", command=win.destroy).pack(pady=20)

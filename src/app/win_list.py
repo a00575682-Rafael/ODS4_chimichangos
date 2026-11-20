@@ -5,7 +5,7 @@ def open_win_list(parent):
     # 1. Configuración de la ventana
     win = tk.Toplevel(parent)
     win.title("Mis Establecimientos Favoritos")
-    win.geometry("450x320")
+    win.geometry("1280x720")
 
     # Marco principal para darle márgenes
     frm = ttk.Frame(win, padding=15)

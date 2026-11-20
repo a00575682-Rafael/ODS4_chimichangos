@@ -10,7 +10,7 @@ from app.win_canvas import open_win_canvas
 def main():
     root = tk.Tk()
     root.title("Proyecto Integrador - MVP")
-    root.geometry("420x520")
+    root.geometry("1280x720")
     root.configure(bg="#FFF3E0")
     estilo = ttk.Style()
     estilo.theme_use("clam")

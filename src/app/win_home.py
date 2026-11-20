@@ -4,7 +4,7 @@ from tkinter import messagebox
 def open_win_home(parent):
     win = tk.Toplevel(parent)
     win.title("Inicio - Ruta Foránea")
-    win.geometry("350x280")
+    win.geometry("1280x720")
     
     # Título 
     tk.Label(win, text="Ruta Foránea", font=("Arial", 16, "bold")).pack(pady=15)

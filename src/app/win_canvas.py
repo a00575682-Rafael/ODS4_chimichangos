@@ -3,7 +3,7 @@ import tkinter as tk
 def open_win_canvas(parent):
     win = tk.Toplevel(parent)
     win.title("Croquis de la zona")
-    win.geometry("500x450")
+    win.geometry("1280x720")
 
     tk.Label(win, text="Mapa de 1km a la redonda (Aprox. 10 cuadras)", font=("Arial", 12)).pack(pady=10)
 
@@ -11,7 +11,7 @@ def open_win_canvas(parent):
     lienzo = tk.Canvas(win, width=450, height=350, bg="white")
     lienzo.pack()
 
-    # 1. DIBUJAMOS LAS CALLES (Formato de cuadras)
+    # 1. DIBUJAMOS LAS CALLES 
     # Usamos un 'for' para no escribir la misma línea 10 veces
     for x in range(50, 450, 80):
         lienzo.create_line(x, 0, x, 350, fill="lightgray", width=20) # Calles verticales

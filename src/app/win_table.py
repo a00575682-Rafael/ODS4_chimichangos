@@ -6,7 +6,7 @@ from pathlib import Path
 def open_win_table(parent: tk.Tk):
     win = tk.Toplevel(parent)
     win.title("Catalogo de establecimientos")
-    win.geometry("680x400")
+    win.geometry("1280x720")
     frm = ttk.Frame(win, padding=24)
     frm.pack(fill="both", expand=True)
  #añadir label de título
